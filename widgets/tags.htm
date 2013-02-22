@@ -1,0 +1,12 @@
+<div id="tags" class="inner well">
+	<h3>Tags</h3>
+</div>
+<script>
+	$(document).ready(function(){
+		for (i=0; i<50; i++)
+		  {
+			var str = '<span class="label" style="line-height:2em;">' + i.toString() + "</span> ";
+		$(".inner").append(str)
+	  }
+	});
+</script>
